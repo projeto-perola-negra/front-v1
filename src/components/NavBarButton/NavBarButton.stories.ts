@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import NavBarButton from ".";
 
 const meta = {
-  title: "Typography/NavBarButton",
+  title: "Components/NavBarButton",
   component: NavBarButton,
   args: {
     children: "Button",
