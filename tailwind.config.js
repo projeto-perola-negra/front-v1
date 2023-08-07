@@ -20,6 +20,9 @@ export default {
         xs: [`${12 / rem}rem`],
         "2xs": [`${10 / rem}rem`],
       },
+      maxWidth: {
+        screen: `${1100 / rem}rem`,
+      },
       colors: {
         "primary-black-1": "#000",
         "primary-black-2": "#000000BF",
