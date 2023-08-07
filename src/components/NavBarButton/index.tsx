@@ -15,8 +15,8 @@ export default function NavBarButton(props: NavBarButtonProps) {
       <a
         {...props}
         className={`rounded flex justify-center items-center px-4 h-8
-          text-paragraph bg-primary-green-1 text-primary-white-1
-          ${className}`}
+          text-paragraph bg-primary-green-1 text-primary-white-1 transition-all
+          hover:invert-[.1] ${className}`}
       >
         {props.children}
       </a>
@@ -25,8 +25,8 @@ export default function NavBarButton(props: NavBarButtonProps) {
       <a
         {...props}
         className={`rounded flex justify-center items-center px-4 h-8
-          text-paragraph bg-primary-white-3 text-primary-black-2
-          ${className}`}
+          text-paragraph bg-primary-white-3 text-primary-black-2 transition-all
+          hover:invert-[.1] ${className}`}
       >
         {props.children}
       </a>
