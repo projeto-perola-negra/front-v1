@@ -4,7 +4,6 @@ export interface NavBarButtonProps extends React.HTMLProps<HTMLAnchorElement> {
   children?: ReactNode;
   variant?: "primary" | "secondary";
   className?: string;
-  targetRef?: React.RefObject<HTMLElement>;
 }
 
 export default function NavBarButton(props: NavBarButtonProps) {
@@ -15,7 +14,6 @@ export default function NavBarButton(props: NavBarButtonProps) {
     primary: () => (
       <a
         {...props}
-        href={`#${props.targetRef?.current?.id}`}
         className={`rounded flex justify-center items-center px-4 h-8
           text-paragraph bg-primary-green-1 text-primary-white-1
           ${className}`}
@@ -26,7 +24,6 @@ export default function NavBarButton(props: NavBarButtonProps) {
     secondary: () => (
       <a
         {...props}
-        href={`#${props.targetRef?.current?.id}`}
         className={`rounded flex justify-center items-center px-4 h-8
           text-paragraph bg-primary-white-3 text-primary-black-2
           ${className}`}
