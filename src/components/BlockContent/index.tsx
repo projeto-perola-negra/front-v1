@@ -22,7 +22,7 @@ export default function BlockContent(props: BlockContentProps) {
           </Text>
         </div>
         {props.aditionalContent && (
-          <div className="overflow-hidden rounded-2xl w-112 h-112 bg-gray-500">
+          <div className="overflow-hidden rounded-2xl w-112 h-112">
             {props.aditionalContent}
           </div>
         )}
@@ -30,21 +30,21 @@ export default function BlockContent(props: BlockContentProps) {
     ),
     secondary: () => (
       <div className="flex flex-row-reverse gap-8">
-        <div className="flex flex-col gap-4 flex-1">
+        <div className="flex flex-col gap-4 w-112">
           <Heading variant="h2">{props.title}</Heading>
           <Text className="text-primary-black-3 font-normal">
             {props.textContent}
           </Text>
         </div>
         {props.aditionalContent && (
-          <div className="overflow-hidden rounded-2xl w-147 h-112 bg-gray-500">
+          <div className="overflow-hidden rounded-2xl flex-1 h-112">
             {props.aditionalContent}
           </div>
         )}
       </div>
     ),
     tertiary: () => (
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-8">
         <div className="flex gap-8">
           <Heading variant="h2" className="flex-1 text-right">
             {props.title}
@@ -54,7 +54,7 @@ export default function BlockContent(props: BlockContentProps) {
           </Text>
         </div>
         {props.aditionalContent && (
-          <div className="overflow-hidden rounded-2xl w-full h-64 bg-gray-500">
+          <div className="overflow-hidden rounded-2xl w-full">
             {props.aditionalContent}
           </div>
         )}
