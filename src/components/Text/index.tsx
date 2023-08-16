@@ -8,7 +8,7 @@ export interface TextProps
 
 export default function Text(props: TextProps) {
   const size = props.size || "paragraph";
-  const className = `font-medium ${props.className}`;
+  const className = `${props.className}`;
 
   return {
     paragraph: () => (
