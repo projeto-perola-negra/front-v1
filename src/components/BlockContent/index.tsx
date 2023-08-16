@@ -2,8 +2,7 @@ import { ReactNode } from "react";
 import Heading from "../Heading";
 import Text from "../Text";
 
-export interface BlockContentProps
-  extends Omit<React.HTMLProps<HTMLAnchorElement>, "title"> {
+export interface BlockContentProps {
   variant?: "primary" | "secondary" | "tertiary";
   title?: ReactNode;
   textContent?: ReactNode;
