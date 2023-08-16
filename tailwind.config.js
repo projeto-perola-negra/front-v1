@@ -23,6 +23,14 @@ export default {
       maxWidth: {
         screen: `${1100 / rem}rem`,
       },
+      width: {
+        112: `${448 / rem}rem`,
+        147: `${588 / rem}rem`,
+      },
+      height: {
+        112: `${448 / rem}rem`,
+        147: `${588 / rem}rem`,
+      },
       colors: {
         "primary-black-1": "#000",
         "primary-black-2": "#000000BF",
