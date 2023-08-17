@@ -22,6 +22,7 @@ export default {
       },
       maxWidth: {
         screen: `${1100 / rem}rem`,
+        "time-line": [`${(1100 * 0.75) / rem}rem`],
       },
       width: {
         112: `${448 / rem}rem`,

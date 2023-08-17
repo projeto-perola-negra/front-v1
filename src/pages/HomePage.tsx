@@ -7,6 +7,7 @@ import Presentation from "../assets/presentation-to-kids.png";
 import PrefeituraBotucatu from "../assets/prefeitura-botucatu.png";
 import LogoCMDCA from "../assets/logo-cmdca.png";
 import SecretariaEducacao from "../assets/secretaria-educacao-sp.png";
+import TimeLine from "../components/TimeLine";
 
 export default function HomePage() {
   return (
@@ -92,6 +93,8 @@ export default function HomePage() {
           </>
         }
       />
+
+      <TimeLine />
     </HomeLayout>
   );
 }
