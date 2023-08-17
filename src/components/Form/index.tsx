@@ -10,10 +10,10 @@ export default function Form() {
         className="flex flex-col gap-y-4 flex-1"
         onSubmit={(ev) => ev.preventDefault()}
       >
-        <Input label="Nome" />
-        <Input label="Telefone" />
-        <Input label="Email" />
-        <Input label="Mensagem" multiline />
+        <Input label="Nome" placeholder="John Doe" />
+        <Input label="Telefone" placeholder="(14) 9 9999-9999" />
+        <Input label="Email" placeholder="exemplo@exemplo.com" />
+        <Input label="Mensagem" multiline placeholder="..." />
         <SubmitButton type="submit">Enviar</SubmitButton>
       </form>
 
