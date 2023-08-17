@@ -32,6 +32,10 @@ export default {
         112: `${448 / rem}rem`,
         147: `${588 / rem}rem`,
       },
+      boxShadow: {
+        input: `0px 0px ${8 / rem}rem 0px rgba(0, 0, 0, 0.13)`,
+        form: `0px 0px ${16 / rem}rem 0px rgba(0, 0, 0, 0.13)`,
+      },
       colors: {
         "primary-black-1": "#000",
         "primary-black-2": "#000000BF",
